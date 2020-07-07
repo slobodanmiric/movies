@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+2:400,500,700|Source+Sans+Pro:300,400&display=swap');
+:root {
+    --red: #bc1414;
+    --white: #fff;
+    --gray: #919191;
+    --darkgray: #454445;
+    --transition: .3s ease;
+    --font: 16px;
+    --bodyFont: 'Source Sans Pro', sans-serif;
+    --headingsFont: 'Baloo 2', cursive;
+}
