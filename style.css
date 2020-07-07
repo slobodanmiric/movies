@@ -9,7 +9,39 @@
     --bodyFont: 'Source Sans Pro', sans-serif;
     --headingsFont: 'Baloo 2', cursive;
 }
-
+body {
+    background-image: linear-gradient(rgba(26,26,26,.9), rgba(26,26,26,.9)), url(bg.jpg);
+    font-size: var(--font);
+    color: var(--gray);
+    font-family: var(--bodyFont);
+    line-height: 1.5;
+    background-attachment: fixed;
+}
+h1,h2,h3,h5,h6 {
+    font-family: var(--headingsFont);
+    font-weight: 700;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
 /************
 header
 ************/
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--white);
+}
+header h1 span {
+    color: var(--red);
+}
+header h5 {
+    font-size: 1.1rem;
+}
+
