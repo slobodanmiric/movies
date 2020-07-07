@@ -43,12 +43,36 @@ header h1 span {
 }
 header h5 {
     font-size: 1.1rem;
+    margin-bottom: 30px;
+    font-weight: 300;
 }
 /************
 nav
 ************/
-
-
+nav {
+    background: rgba(0,0,0,.6);
+    border-bottom: 5px solid var(--red);
+    text-align: center;
+    height: 70px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: var(--gray);
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 70px;
+    letter-spacing: 2px;
+    padding: 25px 50px;
+}
+nav ul li a:hover {
+    color: var(--white);
+    transition: var(--transition);
+}
+nav .active {
+    color: var(--red);
+}
 
 
 
